@@ -18,7 +18,7 @@ class Atendimento:
         paciente: nome do paciente agendado
         profissional: profissional responsável pelo atendimento
         data: data da consulta
-        hora_inicio: horário de início em formato de hora cheia (0 a 23)
+        hora_inicio: horário de início em formato de hora cheia (8 a 17)
         duracao_minutos: duração total da consulta em minutos
         status: estado atual do agendamento, padrão: marcado
     """

@@ -16,7 +16,7 @@ class Agenda:
     """Agenda de atendimentos de uma clínica, mantida em memória.
 
     Esta classe não imprime nada: informa o resultado por retorno ou exceção
-    e deixa a apresentação para :mod:agenda_facil.apresentacao.
+    e deixa a apresentação para :mod:`agenda_facil.apresentacao`.
     """
 
     def __init__(self):
@@ -119,7 +119,7 @@ class Agenda:
         )
 
     def _garantir_horario_livre(self, profissional, data, hora_inicio):
-        """Levanta :class:ConflitoHorarioError se o horário já estiver ocupado."""
+        """Levanta :class:`ConflitoHorarioError` se o horário já estiver ocupado."""
         # Na remarcação o próprio atendimento ainda está na lista, então
         # remarcar para o mesmo horário conta como conflito. É o comportamento
         # do código original e foi mantido de propósito.

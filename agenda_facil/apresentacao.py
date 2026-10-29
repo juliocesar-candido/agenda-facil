@@ -53,7 +53,7 @@ def exibir_atendimentos(atendimentos):
     """Imprime uma linha para cada atendimento da sequência.
 
     Args:
-        atendimentos: Sequência de :class:Atendimento.
+        atendimentos: Sequência de :class:`Atendimento`.
     """
     for atendimento in atendimentos:
         print(formatar_linha_atendimento(atendimento))
